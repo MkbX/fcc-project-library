@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #738393;
+  color:#f5f5f5;
+}
+
+#container1, #container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sampleui {
+  max-width: 450px;
+  /*margin-left: 5%;*/
+  height: 100%;
+}
+
+#sampleposting {
+  max-width: 450px;
+  text-align: center;
+  /*margin-left: 5%;*/
+}
+
+header {
+  background-color: #acacac;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+form {
+  padding: 5px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input, button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+hr {
+  color: #cecece;
+}
